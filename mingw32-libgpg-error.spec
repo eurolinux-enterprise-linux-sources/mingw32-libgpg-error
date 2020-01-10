@@ -7,7 +7,7 @@
 
 Name:           mingw32-libgpg-error
 Version:        1.6
-Release:        13%{?dist}.4
+Release:        13%{?dist}.5
 Summary:        MinGW Windows GnuPGP error library
 
 
@@ -72,6 +72,10 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Mon Aug 22 2011 Kai Tietz <ktietz@redhat.com>
+- Adjusted version and rebuild using gcc 4.4.6
+  Related: rhbz#722878
+
 * Tue Dec 28 2010 Andrew Beekhof <abeekhof@redhat.com> - 1.6-13.4
 - Rebuild everything with gcc-4.4
   Related: rhbz#658833
